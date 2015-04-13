@@ -15,7 +15,7 @@ it is a MVC web framework like Ruby On Rail, but better.
 
 on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl to install erlang from source.
 
-```
+```bash
  cd ~
  mkdir bin
  cd bin
@@ -30,13 +30,13 @@ on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl
  echo "source ~/bin/lang/erlang/17.5/activate"  ~/.profile
  echo "export PATH=$PATH:$HOME/bin:."  ~/.profile
  source ~/.profile
-```bash
+```
 
 after this step, you have a working erlang runtime compiled from source.
 just type `erl` in your shell and you will get the erlang REPL.
 
 # Get ChicagoBoss
-```bash type in the console
+```bash
  sudo apt-get install git
  mkdir workspace
  cd workspace
@@ -47,7 +47,7 @@ just type `erl` in your shell and you will get the erlang REPL.
 
 # First CB app.
 
-```bash type in the console
+```bash
  cd 
  cd workspace/ChicagoBoss
  make app PROJECT=first
@@ -107,13 +107,13 @@ with an action call index, when the browser point to `http://localhost:8001/inde
 my app should show `Hello world!!!`
 
 a controller is named like this: 
-```erlang controller naming convention
+```
      <app_name>/src/<app_name>_<controller_name>_controller.erl
 ```
 
 edit `first/src/controller/first_index_controller.erl`
 
-```erlang first controller
+```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
 
@@ -154,7 +154,7 @@ an action in CB is a function with 2 or 3 parameters in the controller module.
  the request context, it is a proplist of usefull value. this list can be modified
  by the  `_before` function or by some `boss_filter` function.
 
-```erlang first controller
+```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
 
