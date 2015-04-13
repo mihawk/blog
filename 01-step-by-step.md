@@ -15,7 +15,7 @@ it is a MVC web framework like Ruby On Rail, but better.
 
 on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl to install erlang from source.
 
-```bash type in the console
+```
  cd ~
  mkdir bin
  cd bin
@@ -30,7 +30,7 @@ on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl
  echo "source ~/bin/lang/erlang/17.5/activate"  ~/.profile
  echo "export PATH=$PATH:$HOME/bin:."  ~/.profile
  source ~/.profile
-```
+```bash
 
 after this step, you have a working erlang runtime compiled from source.
 just type `erl` in your shell and you will get the erlang REPL.
@@ -171,13 +171,12 @@ an action in CB is a function with 2 or 3 parameters in the controller module.
  in your controller module.
  if no default action is provided, CB will throw an 404 not found.
 
-
-```bash without default action.
+- with default action to index.
+```bash
  curl -X GET http://localhost:8001/index
 ```
 
 with default action to index.
-
 ```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
@@ -190,7 +189,7 @@ with default action to index.
 
  point the browser to http://localhost:8001/index will execute the default action index.
 
-```bash with default action to index.
+```bash
  curl -X GET http://localhost:8001/index
 ```
 
