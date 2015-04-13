@@ -15,7 +15,7 @@ it is a MVC web framework like Ruby On Rail, but better.
 
 on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl to install erlang from source.
 
-``` bash type in the console
+```bash
  cd ~
  mkdir bin
  cd bin
@@ -36,7 +36,7 @@ after this step, you have a working erlang runtime compiled from source.
 just type `erl` in your shell and you will get the erlang REPL.
 
 # Get ChicagoBoss
-```bash type in the console
+```bash
  sudo apt-get install git
  mkdir workspace
  cd workspace
@@ -47,7 +47,7 @@ just type `erl` in your shell and you will get the erlang REPL.
 
 # First CB app.
 
-```bash type in the console
+```bash
  cd 
  cd workspace/ChicagoBoss
  make app PROJECT=first
@@ -56,7 +56,7 @@ just type `erl` in your shell and you will get the erlang REPL.
 ```
 
 # Anatomy 
-```bash Directory Structure
+```bash
 first/
      ├── boss.config
      ├── init-dev.sh
@@ -107,13 +107,13 @@ with an action call index, when the browser point to `http://localhost:8001/inde
 my app should show `Hello world!!!`
 
 a controller is named like this: 
-```erlang controller naming convention
-     <app_name>/src/<app_name>_<controller_name>_controller.erl
+```
+ <app_name>/src/<app_name>_<controller_name>_controller.erl
 ```
 
 edit `first/src/controller/first_index_controller.erl`
 
-```erlang first controller
+```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
 
@@ -124,13 +124,16 @@ edit `first/src/controller/first_index_controller.erl`
 
 # VIEW
 
-```erlang corresponding view naming convention
+* corresponding view naming convention
+
+```erlang
       <app_name>/src/view/<controller_name>/<action_name>.<tpl_extension>
 ```
 for the action index in controller index we have the corresponding view:
-     - `first/src/view/index/index.html`
 
-```html view
+* first/src/view/index/index.html
+
+```html
   <html>
   <head><title>My First CB app</title></head>
   <body>
@@ -154,7 +157,7 @@ an action in CB is a function with 2 or 3 parameters in the controller module.
  the request context, it is a proplist of usefull value. this list can be modified
  by the  `_before` function or by some `boss_filter` function.
 
-```erlang first controller
+```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
 
@@ -171,13 +174,12 @@ an action in CB is a function with 2 or 3 parameters in the controller module.
  in your controller module.
  if no default action is provided, CB will throw an 404 not found.
 
-
-```bash without default action.
+- with default action to index.
+```bash
  curl -X GET http://localhost:8001/index
 ```
 
 with default action to index.
-
 ```erlang
   -module(first_index_controller, [Req, SessionId]).
   -export([index/3]).
@@ -190,7 +192,7 @@ with default action to index.
 
  point the browser to http://localhost:8001/index will execute the default action index.
 
-```bash with default action to index.
+```bash
  curl -X GET http://localhost:8001/index
 ```
 
