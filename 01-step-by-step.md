@@ -15,7 +15,7 @@ it is a MVC web framework like Ruby On Rail, but better.
 
 on linux Ubuntu 14.04, i usualy remove pre installed erlang runtime and use kerl to install erlang from source.
 
-``` bash type in the console
+```bash type in the console
  cd ~
  mkdir bin
  cd bin
