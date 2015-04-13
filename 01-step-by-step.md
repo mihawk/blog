@@ -130,7 +130,8 @@ edit `first/src/controller/first_index_controller.erl`
       <app_name>/src/view/<controller_name>/<action_name>.<tpl_extension>
 ```
 for the action index in controller index we have the corresponding view:
-     - *first/src/view/index/index.html*
+
+* first/src/view/index/index.html
 
 ```html
   <html>
