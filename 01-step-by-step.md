@@ -1,4 +1,4 @@
-# Who I am
+# Who am I?
 
 *This blog is about Erlang/OTP and web developpement.
 i had a revelation when i discover erlang/OTP in 2010, 
