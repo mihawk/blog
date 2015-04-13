@@ -56,7 +56,7 @@ just type `erl` in your shell and you will get the erlang REPL.
 ```
 
 # Anatomy 
-```bash Directory Structure
+```bash
 first/
      ├── boss.config
      ├── init-dev.sh
