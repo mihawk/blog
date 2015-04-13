@@ -1,6 +1,6 @@
 # Who am I?
 
-*This blog is about Erlang/OTP and web developpement.
+*This blog is about Erlang/OTP and web development.
 i had a revelation when i discover erlang/OTP in 2010, 
 since, i am following ChicagoBoss project, patching and contributing to it.*
 
