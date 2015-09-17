@@ -174,7 +174,7 @@ true
 (ad@xyz)2>
 ```
 
- cool we can now call eldap_api:check_password/3 from our controller now :)
+ cool we can call eldap_api:check_password/3 from our controller :)
 
 #boss filter for authentification.
 
