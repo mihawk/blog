@@ -178,7 +178,7 @@ true
 
 #boss filter for authentification.
 
-  i assume you have read the READMEs/README_FILTERS.md from the boss repo.
+  i assume you have read the [README_FILTERS.md](https://github.com/ChicagoBoss/ChicagoBoss/blob/master/READMEs/README_FILTERS.md) from the boss repo.
   from the doc we have:
 
 ```erlang
