@@ -8,7 +8,7 @@ earlier this year, i had to connect and authenticate an user against Active Dire
    can connect and authenticate user against ActiveDirectory, WOW :), and it is open-source,
   i decided to extract the code and package it [here](https://github.com/mihawk/eldap). 
 
-  in this post, you will find out how to use [ChicagoBoss](http://www.chicagoboss.org) with an external dep, 
+  in this tutorial, you will find out how to use [ChicagoBoss](http://www.chicagoboss.org) with an external dep, 
    boss filter for authentification and authorization.
   
 
