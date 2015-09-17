@@ -62,7 +62,7 @@ make compile
 ```
 
 
-#let's start and try to connect to our ActiveDirectory
+#let's try to  connect to ActiveDirectory
 
 ```bash
 ./init-dev.sh
