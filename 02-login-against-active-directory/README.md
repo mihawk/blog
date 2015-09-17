@@ -493,20 +493,20 @@ before_filter(Cfg, ReqCtx) ->
   %% get the current action
   Action = proplists:get_value(action, ReqCtx),
 
-  check(ReqCtx, User, Sid, Method, Ctrl, Action).
+  check_access(ReqCtx, User, Sid, Method, Ctrl, Action).
 
 
-%% pattern match for access page.
+%% we user pattern match for access page.
 
 %% if user is not authentified and want to access the index page, we redirect to the login page
-check(_, undefined, Sid, 'GET', ad_index_controller, "index") -> {redirect, "/auth/login"};
+check_access(_, undefined, Sid, 'GET', ad_index_controller, "index") -> {redirect, "/auth/login"};
 
 %% if user is identified and want to access index page, the user can acces it.
-check(ReqCtx, User, Sid, 'GET', ad_index_controller, "index") -> {ok, [{user, User}|ReqCtx]};
+check_access(ReqCtx, User, Sid, 'GET', ad_index_controller, "index") -> {ok, [{user, User}|ReqCtx]};
 
 %% anonymous user or identified user can access other page
-check(ReqCtx, undefined, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, "anonymous"}|ReqCtx]};
-check(ReqCtx,      User, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, User}|ReqCtx]}.
+check_access(ReqCtx, undefined, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, "anonymous"}|ReqCtx]};
+check_access(ReqCtx,      User, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, User}|ReqCtx]}.
 
 ```
 
