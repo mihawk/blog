@@ -22,10 +22,8 @@ before_filter(Cfg, ReqCtx) ->
 
 
 %% pattern match for access page.
-%% if user is not authentified and want to access the index page, we redirect to the login page
-check_access(_, undefined, Sid, 'GET', ad_index_controller, "index") -> 
-    boss_session:set_session_data(Sid, redirect_after_login_success, )
-    {redirect, "/auth/login"};
+%% if user is not authentified and want to access the index/index page, we redirect him to the login page
+check_access(_, undefined, Sid, 'GET', ad_index_controller, "index") -> {redirect, "/auth/login"};
 
 %% if user is identified and want to access index page, the user can acces it.
 check_access(ReqCtx, User, Sid, 'GET', ad_index_controller, "index") -> {ok, [{user, User}|ReqCtx]};
