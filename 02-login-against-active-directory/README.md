@@ -190,7 +190,7 @@ true
         {ok, [{is_admin, IsAdmin}|RequestContext]}.
 ```
 
-let's write our own module, which does nothin but just log some information.
+let's write our own module, which does nothing but just log some information.
 
 
 ```erlang
