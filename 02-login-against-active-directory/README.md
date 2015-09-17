@@ -481,7 +481,7 @@ before_filter(Cfg, ReqCtx) ->
   %% get the current SessionId
   Sid = proplists:get_value(session_id, ReqCtx),
 
-  %% get the user id
+  %% get the linked user
   User = boss_session:get_session_data(Sid, user),
 
   %% get the http request method
