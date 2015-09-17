@@ -378,7 +378,6 @@ login('POST', [], _ReqCtx) ->
                boss_session:set_session_data(Sid, user, Login);
                {ok, [{success_msg, "You are authentified"}]};
        false ->
-               %%if user is authentified, link is current session
                {ok, [{error_msg, "Not Authorized"}]}
   end.
 ```
