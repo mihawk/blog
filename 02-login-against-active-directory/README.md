@@ -496,7 +496,7 @@ before_filter(Cfg, ReqCtx) ->
   check_access(ReqCtx, User, Sid, Method, Ctrl, Action).
 
 
-%% we user pattern match for access page.
+%% we use pattern matching for access page.
 
 %% if user is not authentified and want to access the index page, we redirect to the login page
 check_access(_, undefined, Sid, 'GET', ad_index_controller, "index") -> {redirect, "/auth/login"};
