@@ -527,7 +527,8 @@ i let you image what to do, you have all the information.
 
 thank for reading this long post, 
 hope you find it interesting.
-you can find the code for this post here http://github.com/mihawk/blog/02-login-against-active-directory
+you can find the code for this post [here](https://github.com/mihawk/blog/tree/master/02-login-against-active-directory/ad) 
+
 mihawk.
 
 
