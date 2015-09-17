@@ -505,7 +505,8 @@ check(_, undefined, Sid, 'GET', ad_index_controller, "index") -> {redirect, "/au
 check(ReqCtx, User, Sid, 'GET', ad_index_controller, "index") -> {ok, [{user, User}|ReqCtx]};
 
 %% anonymous user or identified user can access other page
-check(ReqCtx, undefined, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, "anonymous"}|ReqCtx]}.
+check(ReqCtx, undefined, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, "anonymous"}|ReqCtx]};
+check(ReqCtx,      User, Sid, _Method, _Ctrl, _Action) -> {ok, [{user, User}|ReqCtx]}.
 
 ```
 
