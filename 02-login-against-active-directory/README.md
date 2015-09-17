@@ -1,4 +1,4 @@
-# Authentification against Active Directory, Boss Filter for authentification/authorization.
+# Login against ActiveDirectory, Boss Filter for authentification/authorization.
 
 earlier this year, i had to connect and authenticate an user against Active Directory from erlang,
   [erlang/OTP](http://erlang.org) have ldap client include since R15,
