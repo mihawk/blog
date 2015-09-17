@@ -12,7 +12,7 @@
    boss filter for authentification and authorization.
   
 
-# let's start.
+# Get started.
 
  i assume you have an Active Directory Server ready somewhere in your network, 
  and installed ChicagoBoss, mostly you can copy paste to your shell when you see shell code, 
@@ -62,7 +62,7 @@ make compile
 ```
 
 
-#let's try to  connect to ActiveDirectory
+#Let's try to  connect to ActiveDirectory
 
 ```bash
 ./init-dev.sh
@@ -96,7 +96,7 @@ just like follow, update your config according to your env.
 ...
 ```
 
-let s try again
+let's try again
 
 ```bash
 ./init-dev.sh
@@ -118,7 +118,7 @@ true
 false
 ```
 
-#start eldap each time we start our app.
+#Start eldap at boot.
 
 in CB, we have init folder where you can perform some task at the boot time of your CB app.
 let's write what we did previously in the shell into a module.
@@ -176,7 +176,7 @@ true
 
  cool we can call eldap_api:check_password/3 from our controller :)
 
-#boss filter for authentification.
+#Boss filter for authentification/authorization.
 
   i assume you have read the [README_FILTERS.md](https://github.com/ChicagoBoss/ChicagoBoss/blob/master/READMEs/README_FILTERS.md) from the boss repo.
   from the doc we have:
