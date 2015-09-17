@@ -467,7 +467,7 @@ curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/aut
   </center>
 </body>
 </html>
-``
+```
 
 we got the success message "You are authentified".
 let s go back to our ad_filter module and add the logic 
