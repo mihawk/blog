@@ -1,12 +1,12 @@
 # Authentification against Active Directory, Boss Filter for authentification and authorization.
 
-* earlier this year, i had to connect an authenticate user against Active Directory from erlang,
+earlier this year, i had to connect an authenticate user against Active Directory from erlang,
   [erlang/OTP](http://erlang.org) have ldap client include since R15,
   i tryed to connect to an Active Directory but without success :(, MS, MS, again MS ...
   back to my favorite search engine, after googling some time,  
   i find out that [ejabberd](https://www.ejabberd.im/node/639) from [preocess-one](https://www.process-one.net/en/), 
    can connect and authenticate user against ActiveDirectory, WOW :), and it is open-source,
-  i decided to extract the code and package it. 
+  i decided to extract the code and package it [here](https://github.com/mihawk/eldap). 
 
   in this post, you will find out how to use [ChicagoBoss](http://www.chicagoboss.org) with an external dep, 
    boss filter for authentification and authorization.
