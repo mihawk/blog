@@ -1,0 +1,10 @@
+-module(ad_index_controller,[Req,Sid]).
+-export([login/3]).
+-default_action(login).
+
+login('GET', [], _ReqCtx) ->
+  {ok, []};
+
+login('POST', [], _ReqCtx) ->
+  {ok, []}.
+

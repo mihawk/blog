@@ -1,0 +1,344 @@
+2015-09-17 12:22:59.404 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:22:59.404 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:22:59.911 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:22:59.911 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:00.418 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:00.418 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:01.201 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:01.201 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:01.707 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:01.707 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:02.486 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:02.486 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:02.992 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:02.992 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:03.500 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:03.500 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:04.006 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:04.006 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:04.512 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:04.512 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:05.018 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:05.018 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:05.525 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:05.525 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:06.032 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:06.032 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:06.540 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:06.540 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:07.046 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:07.046 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:07.553 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:07.553 [error] <0.279.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:23:08.060 [error] <0.278.0>@eldap:connect_bind:1155 LDAP connection failed:
+** Server: ldap.MyDomain.com:389
+** Reason: nxdomain
+** Socket options: [{packet,asn1},{active,true},{keepalive,true},{send_timeout,30000},binary]
+2015-09-17 12:51:40.002 [error] <0.1045.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.002 [error] <0.1045.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.002 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1045.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:51:40.002 [error] <0.1048.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.002 [error] <0.1048.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.002 [error] <0.1058.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.002 [error] <0.1058.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1192.0> gen_server <0.1192.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1192.0> CRASH REPORT Process <0.1192.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1195.0> gen_server <0.1195.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1195.0> CRASH REPORT Process <0.1195.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1083.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1083.0> CRASH REPORT Process <0.1083.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1056.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1056.0> CRASH REPORT Process <0.1056.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1046.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1046.0> CRASH REPORT Process <0.1046.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.003 [error] <0.1081.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.003 [error] <0.1087.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.004 [error] <0.1081.0> CRASH REPORT Process <0.1081.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.004 [error] <0.1087.0> CRASH REPORT Process <0.1087.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:40.004 [error] <0.1085.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:40.004 [error] <0.1085.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.197 [error] <0.1200.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.197 [error] <0.1200.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.197 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1200.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:51:42.198 [error] <0.1213.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.198 [error] <0.1213.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.198 [error] <0.1201.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.198 [error] <0.1201.0> CRASH REPORT Process <0.1201.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.198 [error] <0.1350.0> gen_server <0.1350.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.198 [error] <0.1350.0> CRASH REPORT Process <0.1350.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.198 [error] <0.1211.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.198 [error] <0.1203.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.198 [error] <0.1211.0> CRASH REPORT Process <0.1211.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.198 [error] <0.1203.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.199 [error] <0.1347.0> gen_server <0.1347.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.199 [error] <0.1347.0> CRASH REPORT Process <0.1347.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.199 [error] <0.1236.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.199 [error] <0.1236.0> CRASH REPORT Process <0.1236.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.199 [error] <0.1242.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.199 [error] <0.1242.0> CRASH REPORT Process <0.1242.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.199 [error] <0.1238.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.199 [error] <0.1238.0> CRASH REPORT Process <0.1238.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:42.199 [error] <0.1240.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:42.199 [error] <0.1240.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.197 [error] <0.1355.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.198 [error] <0.1355.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.198 [error] <0.1356.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.198 [error] <0.1356.0> CRASH REPORT Process <0.1356.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.198 [error] <0.1395.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.198 [error] <0.1395.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.198 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1355.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:51:44.198 [error] <0.1393.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1393.0> CRASH REPORT Process <0.1393.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1391.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1391.0> CRASH REPORT Process <0.1391.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1358.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1505.0> gen_server <0.1505.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1358.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1505.0> CRASH REPORT Process <0.1505.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1366.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1366.0> CRASH REPORT Process <0.1366.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1502.0> gen_server <0.1502.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1502.0> CRASH REPORT Process <0.1502.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.199 [error] <0.1397.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.199 [error] <0.1397.0> CRASH REPORT Process <0.1397.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:44.200 [error] <0.1368.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:44.200 [error] <0.1368.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:46.465 [error] <0.1510.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:51:46.465 [error] <0.1510.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:51:46.465 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1510.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:54:22.760 [error] <0.95.0>@boss_web_controller:process_compile_result:216 Compilation of "/home/mihawk/workspace/blog/ad/apps/ad/priv/init/ad_02_eldap.erl" failed: {error,[{"/home/mihawk/workspace/blog/ad/apps/ad/priv/init/ad_02_eldap.erl",[{9,erl_parse,["syntax error before: ","'.'"]}]}]}
+2015-09-17 12:54:48.020 [error] <0.425.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.021 [error] <0.425.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.021 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.425.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:54:48.021 [error] <0.467.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.021 [error] <0.467.0> CRASH REPORT Process <0.467.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.021 [error] <0.575.0> gen_server <0.575.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.575.0> CRASH REPORT Process <0.575.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.022 [error] <0.572.0> gen_server <0.572.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.572.0> CRASH REPORT Process <0.572.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.022 [error] <0.465.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.465.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.022 [error] <0.438.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.438.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.022 [error] <0.428.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.463.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.022 [error] <0.428.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.023 [error] <0.463.0> CRASH REPORT Process <0.463.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.023 [error] <0.426.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.023 [error] <0.426.0> CRASH REPORT Process <0.426.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.023 [error] <0.436.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.023 [error] <0.436.0> CRASH REPORT Process <0.436.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:48.023 [error] <0.461.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:48.023 [error] <0.461.0> CRASH REPORT Process <0.461.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:50.264 [error] <0.580.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:50.264 [error] <0.580.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:50.264 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.580.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:54:50.265 [error] <0.583.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:50.265 [error] <0.583.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:54:50.265 [error] <0.622.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:50.265 [error] <0.618.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:54:50.265 [error] <0.622.0> CRASH REPORT Process <0.622.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.042 [error] <0.1045.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.042 [error] <0.1045.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.043 [error] <0.1192.0> gen_server <0.1192.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.043 [error] <0.1192.0> CRASH REPORT Process <0.1192.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.043 [error] <0.1083.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.043 [error] <0.1083.0> CRASH REPORT Process <0.1083.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.043 [error] <0.1085.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.043 [error] <0.1085.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.044 [error] <0.1056.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.044 [error] <0.1056.0> CRASH REPORT Process <0.1056.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.044 [error] <0.1046.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.044 [error] <0.1046.0> CRASH REPORT Process <0.1046.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.044 [error] <0.1058.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.044 [error] <0.1058.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.044 [error] <0.1081.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.044 [error] <0.1081.0> CRASH REPORT Process <0.1081.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.044 [error] <0.1087.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.044 [error] <0.1087.0> CRASH REPORT Process <0.1087.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.045 [error] <0.1195.0> gen_server <0.1195.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.045 [error] <0.1195.0> CRASH REPORT Process <0.1195.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.045 [error] <0.1048.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:52.045 [error] <0.1048.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:52.045 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1045.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:55:53.763 [error] <0.1200.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.764 [error] <0.1200.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.764 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1200.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:55:53.764 [error] <0.1203.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.764 [error] <0.1203.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.764 [error] <0.1347.0> gen_server <0.1347.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.764 [error] <0.1347.0> CRASH REPORT Process <0.1347.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.765 [error] <0.1213.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.765 [error] <0.1213.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.765 [error] <0.1211.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.765 [error] <0.1211.0> CRASH REPORT Process <0.1211.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.765 [error] <0.1201.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.765 [error] <0.1201.0> CRASH REPORT Process <0.1201.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.765 [error] <0.1238.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.765 [error] <0.1238.0> CRASH REPORT Process <0.1238.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.765 [error] <0.1236.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.765 [error] <0.1236.0> CRASH REPORT Process <0.1236.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.766 [error] <0.1242.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.766 [error] <0.1242.0> CRASH REPORT Process <0.1242.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.766 [error] <0.1350.0> gen_server <0.1350.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.766 [error] <0.1350.0> CRASH REPORT Process <0.1350.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:53.766 [error] <0.1240.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:53.766 [error] <0.1240.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.908 [error] <0.1355.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.908 [error] <0.1355.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.908 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.1355.0> exit with reason call to undefined function ad_02_eldap:init() in context child_terminated
+2015-09-17 12:55:55.909 [error] <0.1393.0> gen_server boss_news_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.909 [error] <0.1393.0> CRASH REPORT Process <0.1393.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.909 [error] <0.1391.0> gen_server boss_mq_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.909 [error] <0.1391.0> CRASH REPORT Process <0.1391.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.910 [error] <0.1395.0> gen_server boss_mail_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.910 [error] <0.1395.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.910 [error] <0.1358.0> gen_server boss_db_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.910 [error] <0.1358.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.910 [error] <0.1397.0> gen_server boss_service_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.910 [error] <0.1397.0> CRASH REPORT Process <0.1397.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.910 [error] <0.1366.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.910 [error] <0.1366.0> CRASH REPORT Process <0.1366.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.911 [error] <0.1368.0> gen_server boss_session_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.911 [error] <0.1356.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.911 [error] <0.1368.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.911 [error] <0.1356.0> CRASH REPORT Process <0.1356.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.911 [error] <0.1505.0> gen_server <0.1505.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.911 [error] <0.1505.0> CRASH REPORT Process <0.1505.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:55.911 [error] <0.1502.0> gen_server <0.1502.0> terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:55.911 [error] <0.1502.0> CRASH REPORT Process <0.1502.0> with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 12:55:58.000 [error] <0.1665.0> gen_server boss_web terminated with reason: call to undefined function ad_02_eldap:init/0 from boss_web_controller:process_compile_result/3 line 213
+2015-09-17 12:55:58.000 [error] <0.1665.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function ad_02_eldap:init() in gen_server:terminate/7 line 804
+2015-09-17 13:01:43.240 [error] <0.95.0>@boss_web_controller:process_compile_result:216 Compilation of "/home/mihawk/workspace/blog/ad/apps/ad/priv/init/ad_02_eldap.erl" failed: {error,[{"/home/mihawk/workspace/blog/ad/apps/ad/priv/init/ad_02_eldap.erl",[{9,erl_parse,["syntax error before: ","'end'"]}]}]}
+2015-09-17 13:04:32.139 [error] <0.95.0> gen_server boss_web terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.139 [error] <0.95.0> CRASH REPORT Process boss_web with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.139 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.95.0> exit with reason call to undefined function lager:info("starting eldap interface...") in context child_terminated
+2015-09-17 13:04:32.139 [error] <0.98.0> gen_server boss_db_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.140 [error] <0.98.0> CRASH REPORT Process boss_db_sup with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.140 [error] <0.96.0> gen_server boss_db_mock_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.140 [error] <0.96.0> CRASH REPORT Process <0.96.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.140 [error] <0.139.0> gen_server boss_news_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.140 [error] <0.139.0> CRASH REPORT Process <0.139.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.140 [error] <0.108.0> gen_server boss_session_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.140 [error] <0.108.0> CRASH REPORT Process boss_session_sup with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.140 [error] <0.131.0> gen_server boss_mq_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.141 [error] <0.131.0> CRASH REPORT Process <0.131.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.141 [error] <0.145.0> gen_server boss_service_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.141 [error] <0.145.0> CRASH REPORT Process <0.145.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.141 [error] <0.265.0> gen_server <0.265.0> terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.141 [error] <0.141.0> gen_server boss_mail_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.141 [error] <0.265.0> CRASH REPORT Process <0.265.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.141 [error] <0.141.0> CRASH REPORT Process boss_mail_sup with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.141 [error] <0.262.0> gen_server <0.262.0> terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.142 [error] <0.106.0> gen_server boss_session_mock_sup terminated with reason: call to undefined function lager:info/1 from ad_02_eldap:init/0 line 6
+2015-09-17 13:04:32.142 [error] <0.106.0> CRASH REPORT Process <0.106.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:32.142 [error] <0.262.0> CRASH REPORT Process <0.262.0> with 0 neighbours exited with reason: call to undefined function lager:info("starting eldap interface...") in gen_server:terminate/7 line 804
+2015-09-17 13:04:34.016 [error] <0.894.0> gen_server boss_web terminated with reason: call to undefined function lager:error/2 from ad_02_eldap:init/0 line 9
+2015-09-17 13:43:03.068 [error] <0.95.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/ad_filter.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{6,erl_lint,{unbound_var,'Cfg'}}]}]
+2015-09-17 13:43:03.068 [error] <0.95.0>@boss_load:make_all_modules:88 Load Module Error lib_modules : [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{6,erl_lint,{unbound_var,'Cfg'}}]}]
+2015-09-17 13:44:23.795 [error] <0.95.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/ad_filter.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{6,erl_lint,{unbound_var,'Cfg'}}]}]
+2015-09-17 13:44:23.795 [error] <0.95.0>@boss_load:make_all_modules:88 Load Module Error lib_modules : [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{6,erl_lint,{unbound_var,'Cfg'}}]}]
+2015-09-17 13:44:40.677 [error] <0.287.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/lib/ad_filter.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{6,erl_lint,{unbound_var,'Cfg'}}]}]
+2015-09-17 15:18:30.323 [error] <0.536.0>@boss_load:compile_and_accumulate_errors:258 Compile Error, "src/controller/ad_auth_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_auth_controller.erl",[{9,erl_parse,["syntax error before: ","'->'"]}]}]
+2015-09-17 15:52:33.167 [error] <0.299.0>@boss_load:compile_and_accumulate_errors:258 Compile Error, "src/controller/ad_auth_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_auth_controller.erl",[{22,erl_parse,["syntax error before: ","','"]}]}]
+2015-09-17 15:53:10.038 [error] <0.302.0>@boss_load:compile_and_accumulate_errors:258 Compile Error, "src/controller/ad_auth_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_auth_controller.erl",[{8,erl_parse,"head mismatch"}]}]
+2015-09-17 16:30:27.678 [error] <0.360.0>@boss_load:compile_and_accumulate_errors:258 Compile Error, "src/lib/ad_filter.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/lib/ad_filter.erl",[{33,erl_parse,"head mismatch"}]}]
+2015-09-17 16:34:01.910 [error] <0.367.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/ad_index_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_index_controller.erl",[{3,erl_lint,{undefined_function,{gift,4}}},{7,erl_lint,{unbound_var,'RegCtx'}},{7,erl_lint,{unbound_var,'User'}}]}]
+2015-09-17 16:34:18.861 [error] <0.371.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/ad_index_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_index_controller.erl",[{3,erl_lint,{undefined_function,{gift,4}}},{7,erl_lint,{unbound_var,'User'}}]}]
+2015-09-17 16:34:34.271 [error] <0.376.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/ad_index_controller.erl" -> [{"/home/mihawk/workspace/blog/ad/apps/ad/src/controller/ad_index_controller.erl",[{3,erl_lint,{undefined_function,{gift,4}}}]}]

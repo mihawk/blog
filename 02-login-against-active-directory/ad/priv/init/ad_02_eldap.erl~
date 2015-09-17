@@ -1,0 +1,14 @@
+-module(ad_02_eldap).
+
+init() ->
+    {ok, Pid} = case application:start(eldap) of
+                         ok ->
+			                         lager:info("starting eldap interface..."), 
+						                         eldap_api:start();
+                     Err -> io:format("Error ~p",[Err])
+		                     end,
+				         {ok, [Pid]}.
+
+					 stop() ->
+					   application:stop(eldap),
+					     ok.
