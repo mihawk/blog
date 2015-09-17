@@ -7,7 +7,7 @@ login('GET', []) ->
 
 login('POST', []) ->
 
-  %% extract value return by the login form
+  %% extract value returned by the login form
   Params = Req:post_params(),
 
   %% extract login and password
