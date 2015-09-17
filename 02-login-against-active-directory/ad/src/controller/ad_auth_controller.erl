@@ -24,7 +24,6 @@ login('POST', []) ->
                lager:info("success login ~p....",[Login]),
                {ok, [{success_msg, "You are authetified"}]};
        false ->
-               %%if user is authentified, link is current session
                lager:info("fail login ~p....",[Login]),
                {ok, [{error_msg, "Not Authorized"}]}
   end.
