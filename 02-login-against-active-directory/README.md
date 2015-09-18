@@ -468,7 +468,7 @@ curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/aut
 </html>
 ```
 
-*we got the success message "You are authentified".*
+**we got the success message "You are authentified".**
 let s go back to our ad_filter module and add the logic 
 if the user want to see the page index/index he need to be authentified
 
