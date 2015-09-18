@@ -199,7 +199,7 @@ cat <<EOF > src/lib/ad_filter.erl
 -module(ad_filter).
 -export([before_filter/2]).
 
-before_filter(_Cfg, ReqCtx) ->
+before_filter(Cfg, ReqCtx) ->
   lager:info("Cfg:~p",[Cfg]),
   lager:info("ReqCtx:~p",[ReqCtx]),
   {ok, ReqCtx}.
