@@ -364,10 +364,10 @@ edit the auth controller like follow:
 
 login('POST', [], _ReqCtx) ->
 
-  %% extract value return by the login form
+  %% extract value returned by the login form
   Params = Req:post_params(),
 
-  %% extract login and password
+  %% extract login and password convert them into binary
   Login = list_to_binary(proplists:get_value("login", Params)),
   Password = list_to_binary(proplists:get_value("login", Params)),
 
@@ -433,7 +433,7 @@ curl -X POST -d "login=admin&password=123123" http://localhost:8001/auth/login
 </html>
 ```
 
-we got the error message "Not Autorized".
+*we got the error message "Not Autorized".
 let s try with a correct user.
 
 ```html
@@ -468,7 +468,7 @@ curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/aut
 </html>
 ```
 
-we got the success message "You are authentified".
+*we got the success message "You are authentified".
 let s go back to our ad_filter module and add the logic 
 if the user want to see the page index/index he need to be authentified
 
