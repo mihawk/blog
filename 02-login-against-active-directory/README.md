@@ -223,7 +223,7 @@ EOF
 ```
 
 basic view:
-```
+```html
 mkdir -p src/view/index
 cat <<EOF > src/view/index/index.html
 <html>
@@ -290,7 +290,7 @@ EOF
 ```
 
 login view:
-```
+```html
 mkdir -p src/view/auth
 cat <<EOF > src/view/auth/login.html
 <html>
@@ -401,7 +401,7 @@ edit your view and add the error message.
 
 let's test with curl
 
-```bash
+```html
 curl -X POST -d "login=admin&password=123123" http://localhost:8001/auth/login
 <html>
 <head>
@@ -436,7 +436,7 @@ curl -X POST -d "login=admin&password=123123" http://localhost:8001/auth/login
 we got the error message "Not Autorized".
 let s try with a correct user.
 
-```bash
+```html
 curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/auth/login
 <html>
 <head>
