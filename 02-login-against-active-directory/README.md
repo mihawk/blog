@@ -1,6 +1,6 @@
 # Login against ActiveDirectory, Boss Filter for authentification/authorization.
 
-earlier this year, i had to connect and authenticate an user against Active Directory from erlang,
+earlier this year, i had to connect and authenticate users against Active Directory from erlang,
   [erlang/OTP](http://erlang.org) have ldap client include since R15,
   i tryed to connect to an Active Directory but without success :(, MS, MS, again MS ...
   back to my favorite search engine, after googling some time,  
