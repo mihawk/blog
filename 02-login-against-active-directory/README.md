@@ -5,7 +5,7 @@ earlier this year, i had to connect and authenticate users against Active Direct
   i tryed to connect to an Active Directory but without success :(, MS, MS, again MS ...
   back to my favorite search engine, after googling some time,  
   i find out that [ejabberd](https://www.ejabberd.im/node/639) from [preocess-one](https://www.process-one.net/en/), 
-   can connect and authenticate user against ActiveDirectory, WOW :), and it is open-source,
+   can connect and authenticate users against ActiveDirectory, WOW :), and it is open-source,
   i decided to extract the code and package it [here](https://github.com/mihawk/eldap). 
 
   in this tutorial, you will find out how to use [ChicagoBoss](http://www.chicagoboss.org) with an external dep, 
