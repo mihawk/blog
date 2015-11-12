@@ -5,8 +5,8 @@ Install erlang from official github repo
 
  sometime you dont have the luxury to download the whole tarbal 
  from erlang.org each time a new release is out,
- you may want also to install service pack, which are available only on the git repos, 
- install a patched version from a big player in the erlang ecosystem. 
+ - you may want also to install service pack, which are available only on the git repos. 
+ - test some new fonctionalite from different repo. 
 
  example: OTP 18.1.3
  
