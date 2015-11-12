@@ -246,8 +246,9 @@ Couldn't checkout specified version
 
 ```
 
- still failed :(.
- the `kerl buil git` command doesn't seem to work with branch name, let's create our own tag.
+still failed :(.
+ 
+the `kerl buil git` command doesn't seem to work with branch name, let's create our own tag.
 
 ```bash
 cd klarna
