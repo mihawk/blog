@@ -317,8 +317,27 @@ the compilation is done now, let's install it.
 kerl install klarna-18.1-mnesia_ext ~/bin/lang/erlang/klarna-18.1-mnesia_ext
 source ~/bin/lang/erlang/klarna-18.1-mnesia_ext/activate
 erl
+Erlang/OTP 18 [erts-7.1] [source-d9e6c95] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
 
-1>m(mnesia_ext_sup).
+Eshell V7.1  (abort with ^G)
+1> m(mnesia_ext_sup).
+Module: mnesia_ext_sup
+MD5: 2b10c65d78f3e8fe147445d1aeab3812
+Compiled: November 12 2015, 08:16
+Object file: /home/mihawk/bin/erlang/klarna-18.1-mnesia_ext/lib/mnesia-4.13.2/ebin/mnesia_ext_sup.beam
+Compiler options:  [{outdir,"/home/mihawk/.kerl/builds/klarna-18.1-mnesia_ext/otp_src_git/lib/mnesia/src/../ebin"},
+                    {attribute,insert,vsn,"mnesia_4.13.2"},
+                    {parse_transform,sys_pre_attributes},
+                    warnings_as_errors,debug_info]
+Exports: 
+         init/1
+         module_info/0
+         module_info/1
+         start/0
+         start_proc/4
+         start_proc/5
+         stop_proc/1
+ok
 
 ```
 
