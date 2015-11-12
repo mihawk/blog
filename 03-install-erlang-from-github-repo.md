@@ -206,7 +206,7 @@ HEAD is now at d9e6c95... Correct get_initial_schema call in mnesia_bup
 0
 ```
 
-the problem is much deeper, i guess the culprit is about the tag name which contain a slash '/'
+the problem is much deeper, maybe the culprit is about the tag name which contain a slash '/'
 you have two choice, fix the bug if you can or clone to an other folder to avoid the slash.
 
  will choose to clone, simpler
@@ -217,12 +217,112 @@ git clone https://github.com/klarna/otp.git klarna
 git clone https://github.com/klarna/otp.git klarna
 Cloning into 'klarna'...
 remote: Counting objects: 178585, done.
+remote: Total 178585 (delta 0), reused 0 (delta 0), pack-reused 178585
+Receiving objects: 100% (178585/178585), 135.16 MiB | 39.00 KiB/s, done.
+Resolving deltas: 100% (138980/138980), done.
+Checking connectivity... done.
+git fetch origin
+git branch -a
+  remotes/origin/HEAD -> origin/maint
+  remotes/origin/OTP-17.5.6-mnesia_ext
+  remotes/origin/OTP-18.0-mnesia_ext
+  remotes/origin/OTP-18.1-mnesia_ext
+  remotes/origin/OTP_R15B03-1-mnesia_ext
+  remotes/origin/OTP_R16B03-1-mnesia_ext
+  remotes/origin/gh-pages
+  remotes/origin/maint
+
 ...
 
-cd klarna
-kerl build git OTP-18.1-mnesia_ext OTP-18.1-mnesia_ext
-kerl install OTP-18.1-mnesia_ext ~/bin/lang/erlang/OTP-18.1-mnesia_ext
+kerl build git ~/OTP/klarna OTP-18.1-mnesia_ext OTP-18.1-mnesia_ext
+
++ [ 1 -ne 0 ]
++ git checkout -b OTP-18.1-mnesia_ext OTP-18.1-mnesia_ext
++ [ 128 -ne 0 ]
++ echo Couldn't checkout specified version
+Couldn't checkout specified version
++ rm -Rf /home/mihawk/.kerl/builds/OTP-18.1-mnesia_ext
++ exit 1
 
 ```
+
+ still failed :(.
+ the `kerl buil git` command doesn't seem to work with branch name, let's create our own tag.
+
+```bash
+cd klarna
+git branch -a
+* OTP-18.1-mnesia_ext
+  maint
+  remotes/origin/HEAD -> origin/maint
+  remotes/origin/OTP-17.5.6-mnesia_ext
+  remotes/origin/OTP-18.0-mnesia_ext
+  remotes/origin/OTP-18.1-mnesia_ext
+  remotes/origin/OTP_R15B03-1-mnesia_ext
+  remotes/origin/OTP_R16B03-1-mnesia_ext
+  remotes/origin/gh-pages
+  remotes/origin/maint
+git checkout OTP-18.1-mnesia_ext
+git log 
+commit d9e6c95e306d4f8db6f5b85c020d80f6ff46e8a1
+Author: Mikael Pettersson <mikael.pettersson@klarna.com>
+Date:   Fri Oct 2 14:46:52 2015 +0200
+
+    Correct get_initial_schema call in mnesia_bup
+
+commit 4c58df19bf77af07afb4c4452eef7cb5b698c4cd
+Author: Richard Carlsson <richardc@klarna.com>
+Date:   Tue Aug 4 14:01:14 2015 +0200
+
+```
+
+copy the last `sha-1` hash of the last commit in the branch OTP-18.0-mnesia_ext  `d9e6c95e306d4f8db6f5b85c020d80f6ff46e8a1`
+
+## create our own tag.
+``
+cd klarna
+git tag klarna-18.1-mnesia_ext d9e6c95e306d4f8db6f5b85c020d80f6ff46e8a1
+git tag
+OTP_R16B03
+OTP_R16B03-1
+OTP_R16B03_yielding_binary_to_term
+R16B02_yielding_binary_to_term
+erl_1252
+klarna-18.1-mnesia_ext
+
+...
+
+ `cross finger`, hope kerl will not complain again.
+
+```bash
+kerl build git ~/workspace/klarna klarna-18.1-mnesia_ext klarna-18.1-mnesia_ext
+...
++ [ ! -x otp_build ]
++ LOGFILE=/home/mihawk/.kerl/builds/klarna-18.1-mnesia_ext/otp_build.log
++ echo Building Erlang/OTP klarna-18.1-mnesia_ext from git, please wait...
+Building Erlang/OTP klarna-18.1-mnesia_ext from git, please wait...
++ ./otp_build autoconf
++ ./otp_build configure
++ [ 0 -ne 0 ]
++ [ -n  ]
+
+
+```
+
+yata, it seem to work, let s wait until we can test the mnesia_ext branch.
+the compilation is done now, let's install it.
+
+```bash
+kerl install klarna-18.1-mnesia_ext ~/bin/lang/erlang/klarna-18.1-mnesia_ext
+source ~/bin/lang/erlang/klarna-18.1-mnesia_ext/activate
+erl
+
+1>m(mnesia_ext_sup).
+
+```
+
+if you know a better way, let me know.
+don't forget to comment `set -x` :)
+MIHAWK
 
 
