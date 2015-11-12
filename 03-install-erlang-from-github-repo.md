@@ -10,7 +10,7 @@
  example: OTP 18.1.3
  
 
-# Install (kerl)[https://github.com/yrashk/kerl] in your $PATH. (ubuntu)
+# Install [kerl](https://github.com/yrashk/kerl) in your $PATH. (ubuntu)
 
 
 ```bash
