@@ -279,7 +279,7 @@ Date:   Tue Aug 4 14:01:14 2015 +0200
 copy the last `sha-1` hash of the last commit in the branch OTP-18.0-mnesia_ext  `d9e6c95e306d4f8db6f5b85c020d80f6ff46e8a1`
 
 ## create our own tag.
-``
+```bash
 cd klarna
 git tag klarna-18.1-mnesia_ext d9e6c95e306d4f8db6f5b85c020d80f6ff46e8a1
 git tag
