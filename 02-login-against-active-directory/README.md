@@ -1,11 +1,11 @@
 # Login against ActiveDirectory, Boss Filter for authentification/authorization.
 
-earlier this year, i had to connect and authenticate an user against Active Directory from erlang,
+earlier this year, i had to connect and authenticate users against Active Directory from erlang,
   [erlang/OTP](http://erlang.org) have ldap client include since R15,
   i tryed to connect to an Active Directory but without success :(, MS, MS, again MS ...
   back to my favorite search engine, after googling some time,  
   i find out that [ejabberd](https://www.ejabberd.im/node/639) from [preocess-one](https://www.process-one.net/en/), 
-   can connect and authenticate user against ActiveDirectory, WOW :), and it is open-source,
+   can connect and authenticate users against ActiveDirectory, WOW :), and it is open-source,
   i decided to extract the code and package it [here](https://github.com/mihawk/eldap). 
 
   in this tutorial, you will find out how to use [ChicagoBoss](http://www.chicagoboss.org) with an external dep, 
@@ -199,7 +199,7 @@ cat <<EOF > src/lib/ad_filter.erl
 -module(ad_filter).
 -export([before_filter/2]).
 
-before_filter(_Cfg, ReqCtx) ->
+before_filter(Cfg, ReqCtx) ->
   lager:info("Cfg:~p",[Cfg]),
   lager:info("ReqCtx:~p",[ReqCtx]),
   {ok, ReqCtx}.
@@ -223,7 +223,7 @@ EOF
 ```
 
 basic view:
-```
+```html
 mkdir -p src/view/index
 cat <<EOF > src/view/index/index.html
 <html>
@@ -290,7 +290,7 @@ EOF
 ```
 
 login view:
-```
+```html
 mkdir -p src/view/auth
 cat <<EOF > src/view/auth/login.html
 <html>
@@ -364,10 +364,10 @@ edit the auth controller like follow:
 
 login('POST', [], _ReqCtx) ->
 
-  %% extract value return by the login form
+  %% extract value returned by the login form
   Params = Req:post_params(),
 
-  %% extract login and password
+  %% extract login and password convert them into binary
   Login = list_to_binary(proplists:get_value("login", Params)),
   Password = list_to_binary(proplists:get_value("login", Params)),
 
@@ -401,7 +401,7 @@ edit your view and add the error message.
 
 let's test with curl
 
-```bash
+```html
 curl -X POST -d "login=admin&password=123123" http://localhost:8001/auth/login
 <html>
 <head>
@@ -433,10 +433,10 @@ curl -X POST -d "login=admin&password=123123" http://localhost:8001/auth/login
 </html>
 ```
 
-we got the error message "Not Autorized".
+*we got the error message "Not Autorized"*.
 let s try with a correct user.
 
-```bash
+```html
 curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/auth/login
 <html>
 <head>
@@ -468,7 +468,7 @@ curl -X POST -d "login=administrator&password=mypass1" http://localhost:8001/aut
 </html>
 ```
 
-we got the success message "You are authentified".
+**we got the success message "You are authentified".**
 let s go back to our ad_filter module and add the logic 
 if the user want to see the page index/index he need to be authentified
 
