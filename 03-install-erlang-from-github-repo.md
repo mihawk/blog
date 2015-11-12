@@ -1,6 +1,7 @@
-# install erlang from official github repo
+Install erlang from official github repo
+========================================
 
-## rational:
+### rational:
 
  sometime you dont have the luxury to download the whole tarbal 
  from erlang.org each time a new release is out,
@@ -30,7 +31,7 @@ cd workspace
 git clone http://github.com/erlang/otp.git
 ```
 
-# build & install a given tag.
+# Build & Install a given tag.
 
 ```bash
 cd ~/workspace/otp
@@ -84,7 +85,7 @@ Building Erlang/OTP OTP-18.1.1 from git, please wait...
 ..
 ```
 
-## install your build:
+## Install your build:
 
 ```bash
 kerl install OTP-18.1.1 ~/bin/lang/erlang/OTP-18.1.1
@@ -96,7 +97,7 @@ Eshell V7.1  (abort with ^G)
 1> 
 ```
 
-# update
+# Update
 
  in my current repos, my latest tag is OTP-18.1.1, OTP-18.1.3 is available.
  just update your repos to sync with the official repos.
@@ -116,7 +117,7 @@ From http://github.com/erlang/otp
 
 ```
 
-# install klarna, mnesia_ext
+# Install klarna, mnesia_ext
 
 ```bash
 cd ~/workspace/otp
@@ -162,7 +163,7 @@ Couldn't checkout specified version
 
 let's see where is the problem.
 launch kerl in debug mode.
-kerl is a bash script, you can add a set -x in the file to execute it in debug mode.
+kerl is a bash script, you can add a `set -x` in the file to execute it in debug mode.
 
 ```bash
 
