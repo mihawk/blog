@@ -88,8 +88,8 @@ Building Erlang/OTP OTP-18.1.1 from git, please wait...
 ## Install your build:
 
 ```bash
-kerl install OTP-18.1.1 ~/bin/lang/erlang/OTP-18.1.1
-source ~/bin/lang/erlang/OTP-18.1.1/activate
+kerl install OTP-18.1.1 ~/bin/erlang/OTP-18.1.1
+source ~/bin/erlang/OTP-18.1.1/activate
 erl
 Erlang/OTP 18 [erts-7.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
 
@@ -314,8 +314,8 @@ yata, it seem to work, let s wait until we can test the mnesia_ext branch.
 the compilation is done now, let's install it.
 
 ```bash
-kerl install klarna-18.1-mnesia_ext ~/bin/lang/erlang/klarna-18.1-mnesia_ext
-source ~/bin/lang/erlang/klarna-18.1-mnesia_ext/activate
+kerl install klarna-18.1-mnesia_ext ~/bin/erlang/klarna-18.1-mnesia_ext
+source ~/bin/erlang/klarna-18.1-mnesia_ext/activate
 erl
 Erlang/OTP 18 [erts-7.1] [source-d9e6c95] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false]
 
